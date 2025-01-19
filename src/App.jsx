@@ -20,7 +20,12 @@ function App() {
       {
         path:'/',
         element: <Home/>
-      }
+      },
+      {
+        path:'/products/:id',
+        element : <SingleProduct/>,
+      },
+
     ]
   )
 
