@@ -9,6 +9,7 @@ import Model from './components/Model'
 import FetchApi from './components/FetchApi'
 import {createBrowserRouter, RouterProvider, Outlet} from "react-router-dom"
 
+
 function App() {
 
   const routerPath = createBrowserRouter(
@@ -21,10 +22,7 @@ function App() {
         path:'/',
         element: <Home/>
       },
-      {
-        path:'/products/:id',
-        element : <SingleProduct/>,
-      },
+      
 
     ]
   )
